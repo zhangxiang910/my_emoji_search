@@ -1,0 +1,25 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #000;
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+body .currentPage:before {
+    background: #333;
+}
+
+@media screen and (max-width: 400px) {
+    .currentPage {
+        display: none;
+    }
+}

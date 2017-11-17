@@ -1,0 +1,14 @@
+.button_panel_component {
+    background-color: #858694;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+}
+
+.button_panel_component > div {
+    width: 100%;
+    margin-bottom: 1px;
+    flex: 1 0 auto;
+    display: flex;
+}
